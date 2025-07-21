@@ -47,6 +47,7 @@ export default function NavBar() {
                             component={NavLink}
                             to={path}
                             sx={navStyles}
+                            key={title}
                         >
                             {title.toUpperCase()}
                         </ListItem>
@@ -66,6 +67,7 @@ export default function NavBar() {
                                 component={NavLink}
                                 to={path}
                                 sx={navStyles}
+                                key={title}
                             >
                                 {title.toUpperCase()}
                             </ListItem>
